@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cargar Universo - Proyecto Cuántico</title>
+    <link rel="stylesheet" href="../static/style/style.css">
+    <script type="module" src="static/cargaDatos.js" defer></script>
+</head>
+
+<body>
+    <div id="container">
+        <div class="formulario">
+            <h1>Proyecto Automatas</h1>
+
+            <!-- Primer input y botón -->
+            <div class="input-grupo">
+                <label for="archivo1">Sube el archivo JSON del Universo</label>
+                <input type="file" id="archivo1" accept=".json">
+                <button id="boton1">Enviar Universo</button>
+            </div>
+
+            <!-- Segundo input y botón -->
+            <div class="input-grupo">
+                <label for="automata1">Escribe la placa a validar (Ej: ABC-1234-Q)</label>
+                <input type="text" id="automata1">
+                <button id="boton2">Validar</button>
+            </div>
+            <div class="input-grupo">
+                <label for="clave-producto">Escribe la clave producto a validar (Ej: BB-3472-XY2)</label>
+                <input type="text" id="clave-producto">
+                <button id="boton3">Validar</button>
+                <div id="resultado2" class="resultado"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
